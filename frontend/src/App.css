@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+#root{
+  text-align: center;
+  background-color:black;
+}
+
+
+.googleBox {
+  text-align: center;
+  margin: 160px auto;
+}
+
+.googleBox > h1 {
+  margin: 0 auto;
+}
+
+.buttonBox {
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+.SearchBox {
+  background: #000;
+  display: flex;
+  border: 1px solid #12f79f;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 40px;
+  margin: 10px auto;
+  width: 482px;
+  color : white;
+}
+.SearchBox:hover {
+  box-shadow: 0 1px 6px 0 #12f79f;
+  border-color: #12f79f;
+}
+.SearchBox > div {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+}
+.SearchIcon {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin: -2px auto 0;
+}
+.SearchIcon > span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: -5px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.SearchIcon > span svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.InputBox {
+  flex-wrap: wrap;
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+  padding: 0;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 32px;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 27px;
+  margin-top: 0;
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+}
+.InputBox > div {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+}
+.InputBox > input {
+  background-color: transparent;
+  border: none;
+  margin-top: -35px;
+  margin-right: 10px;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.minidiv {
+  line-height: 32px;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 27px;
+  margin-top: 0;
+}
+
+
+
+.googleBox {
+  margin: 160px auto;
+}
+
+h1{
+  -webkit-text-stroke: 1px rgb(18, 247, 159);
+  font-size: 7em;
+  font-family: 'Megrim', cursive;
+  font-weight: 900;
+  color: black;
+  text-shadow:
+       3px 3px 0 #12f79f,
+     -1px -1px 0 #12f79f,  
+      1px -1px 0 #12f79f,
+      -1px 1px 0 #12f79f,
+       1px 1px 0 #12f79f;
+}
+
+
+
