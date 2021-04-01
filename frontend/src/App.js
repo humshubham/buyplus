@@ -1,7 +1,5 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import './App.css';
 
 
@@ -10,17 +8,11 @@ class App extends React.Component {
     super(props);
     this.state = {
       product: "",
-      checkedA: true,
-      checkedF: true,
-      checkedM: true,
-      checkedB: true,
+      
     };  
   }
 
 
-  handleChange = (event) => {
-    this.setState({[event.target.name]: event.target.checked });
-  };
 
   handleInput = (event) => {
     this.setState({[event.target.name]: event.target.value });
@@ -32,10 +24,7 @@ class App extends React.Component {
     this.props.history.push( {pathname: "/search",
     state: {
       product:this.state.product,
-      amazon : this.state.checkedA,
-      flipkart : this.state.checkedF,
-      myntra : this.state.checkedM,
-      bewakoof : this.state.checkedB 
+      
     }
   });
   }
@@ -86,39 +75,8 @@ class App extends React.Component {
          color:"#12f79f",
          border: "2px solid #12f79f"
          }} color="primary">
-        Go      </Button> <br/> </div>
-        <FormControlLabel style={{color:"#12f79f"}}
-        control={<Checkbox checked={this.state.checkedA} onChange={this.handleChange} name="checkedA"
-        style={{
-          color:"#12f79f"
-        }}
-        />}
-        label="Amazon"
-      />
-      <FormControlLabel style={{color:"#12f79f"}}
-        control={<Checkbox checked={this.state.checkedF} onChange={this.handleChange} name="checkedF" 
-        style={{
-          color:"#12f79f"
-        }}
-        />}
-        label="Flipkart"
-      />
-      <FormControlLabel style={{color:"#12f79f"}}
-        control={<Checkbox checked={this.state.checkedM} onChange={this.handleChange} name="checkedM" 
-        style={{
-          color:"#12f79f"
-        }}
-        />}
-        label="Myntra"
-      />
-      <FormControlLabel style={{color:"#12f79f"}}
-        control={<Checkbox checked={this.state.checkedB} onChange={this.handleChange} name="checkedB" 
-        style={{
-          color:"#12f79f"
-        }}
-        />}
-        label="Bewakoof"
-      />
+        Go      </Button> </div>
+      
       
     </div>
     

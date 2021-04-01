@@ -30,8 +30,9 @@ export default function MediaCard({image, title, price, url, website}) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {website} : Price = {price}
+            Price = {price} 
           </Typography>
+          <p>{website}</p>
           <Typography variant="body2" color="textSecondary" component="p">
             {title}
           </Typography>
