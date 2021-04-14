@@ -44,9 +44,10 @@ npm start
 
 Screenshots : 
 
-![home-screen](https://github.com/humshubham/buyplus/screenshots/home.png?raw=true)
-![home-screen](https://github.com/humshubham/buyplus/screenshots/results.png?raw=true)
-
+<p align="center">
+  <img src="screenshots/home.png" width="350" title="Home">
+  <img src="screenshots/results.png" width="350" alt="Results">
+</p>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
