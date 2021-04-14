@@ -1,0 +1,18 @@
+products: 
+    css: 'div._1AtVbE.col-12-12'
+    xpath: null
+    multiple: true
+    type: Text
+    children: 
+        title:
+            css: 'div._2B099V a.IRpwTa'
+            xpath: null
+            type: Text
+        url:
+            css: 'div._2B099V a.IRpwTa'
+            xpath: null
+            type: Link        
+        price:
+            css: 'div._25b18c div._30jeq3'
+            xpath: null
+            type: Text

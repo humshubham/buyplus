@@ -1,0 +1,22 @@
+products: 
+    css: 'div.productCardBox'
+    xpath: null
+    multiple: true
+    type: Text
+    children: 
+        title:
+            css: 'div.productCardBox div.productCardDetail h3'
+            xpath: null
+            type: Text
+        url:
+            css: 'div.productGrid a.col-sm-4.col-xs-6'
+            xpath: null
+            type: Link  
+        image:
+            css: 'div.productCardImg.false div img'
+            type: Attribute
+            attribute: src        
+        price:
+            css: 'div.productPriceBox.clearfix span.discountedPriceText b'
+            xpath: null
+            type: Text

@@ -94,9 +94,9 @@ class SearchPage extends React.Component {
                     ...Object.values(this.state.bewakoof),
                   ]
     });
-    this.setState({
-        productList : Object.values(this.state.productList).sort(this.GetSortOrder('price'))
-      });
+    // this.setState({
+    //     productList : Object.values(this.state.productList).sort(this.GetSortOrder('price'))
+    //   });
     console.log(this.state.productList);
   }
 
