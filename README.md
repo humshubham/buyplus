@@ -45,8 +45,8 @@ npm start
 Screenshots : 
 
 <p align="center">
-  <img src="screenshots/home.png" width="350" title="Home">
-  <img src="screenshots/results.png" width="350" alt="Results">
+  <img src="screenshots/home.png" width="500" title="Home">
+  <img src="screenshots/results.png" width="500" alt="Results">
 </p>
 
 ## Contributing
