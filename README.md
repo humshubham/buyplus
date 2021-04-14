@@ -44,8 +44,8 @@ npm start
 
 Screenshots : 
 
-![home-screen](https://github.com/humshubham/buyplus/blob/screenshots/home.png?raw=true)
-![home-screen](https://github.com/humshubham/buyplus/blob/screenshots/results.png?raw=true)
+![home-screen](https://github.com/humshubham/buyplus/screenshots/home.png?raw=true)
+![home-screen](https://github.com/humshubham/buyplus/screenshots/results.png?raw=true)
 
 
 ## Contributing
